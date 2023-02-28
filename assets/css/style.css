@@ -1,12 +1,15 @@
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    color:rgb(224, 249, 249);
-   
+    color: #ffffff;
+}
+
+h1{
+    animation: color-changing 3s both ease-in-out infinite;
 }
 
 body {
-    background: linear-gradient(to bottom left,rgb(15, 14, 14),rgb(46, 44, 42) , rgba(8, 8, 8, 0.945));
+    background: linear-gradient(to bottom left,rgb(39, 127, 199),#0c3150 ,#004f8f,#000000);
     background-color: #004f8f;
     overflow-x: hidden;
     position: relative;
@@ -18,8 +21,7 @@ p {
 }
 
 p.abs{
-    /* animation: color-changing2 both 10s ease-in-out infinite; */
-    padding: 6%;
+    animation: color-changing2 both 10s ease-in-out infinite;
 }
 
 .head {
@@ -56,8 +58,9 @@ p.abs{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: radial-gradient(#b455fcbd, #340b87c5);
     /* background: radial-gradient(#021635 30%, #004f8f 70%); */
-    border: 1px black solid;
+    /* border: 1px black solid; */
     transition: .8s;
     z-index: 0;
     margin: 1em 0;
@@ -66,6 +69,7 @@ p.abs{
     height: fit-content;
     /* background: #015958; */
     overflow: hidden;
+    animation: br-changing 10s ease-in-out infinite alternate;
     /* position: relative; */
     border-radius: 2em;
 }
@@ -98,9 +102,9 @@ footer {
     text-transform: capitalize;
     justify-content: space-evenly;
     margin: 0;
-    
+    background: #00000086;
     /* border: 1px rgba(255, 255, 255, 0.589) solid; */
-    /* animation: br-changing 10s ease-in-out infinite alternate; */
+    animation: br-changing 10s ease-in-out infinite alternate;
     border-radius: 1em;
     font-size: 1.5em;
     padding: .6em;
